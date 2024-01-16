@@ -1,0 +1,430 @@
+
+.header{
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-logo p{
+
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;   
+    
+}
+.header-logo , .logo-title{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+ 
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+nav li a{
+    color: #424247;
+    text-decoration: none;
+    align-items: center;
+
+}
+.nav-home{
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.toggle{
+    display: none;
+}
+
+.banner{
+    background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+   background-size: cover;
+   background-position:center;
+   max-width: 1290px;
+   max-height: 500px;
+   margin: 0 auto;
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   align-items: center;
+    
+}
+
+.home-title{
+    align-items: center;
+    text-align: center; 
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 800px;
+    position: relative;
+    top:100px;
+    align-items: center;
+    max-height:500px;
+   
+    
+    /* top: 70%; 
+    transform: translateY(-5%); */
+
+}
+ .home-title-1{
+    color: #ffffff;
+    font-family: Mulish;
+    font-size: 50px;
+    font-weight: 800;
+
+  
+    /* position: relative; */
+   
+    align-items: center;
+   
+   
+   
+   
+    /* top: 90%;  */
+    /* transform: translateY(-50%);       */
+}  
+
+.home-title .home-title-2{
+    color: #ffffff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    align-items: center;
+   
+    /* position: absolute; */
+    
+    
+}
+
+.form{
+    display: inline-flex;
+    padding: 16px;
+    /* align-items: flex-start; */
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    color: rgba(19, 19, 24, 0.50);
+    
+}
+.form-input{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 4px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.find-now{
+    display: flex;
+    justify-content: space-between;
+}
+.find-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    border: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.popular-tour-img img{
+    height: 100%;  
+}
+.popular-tours{
+    display: flex;
+    padding: 50px 110px;
+    gap: 110px;
+    /* max-width: 1390px; */
+   
+}
+
+.popular-tour-txt h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tour-txt {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 162.5% */
+}
+
+.popular-tour-txt-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    
+}
+
+.destination{
+    padding-left: 110px;
+    padding-right: 110px;
+    display: grid;
+    
+}
+.destination-title h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.destination-title p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+/* .bg
+{
+    background-image: url(./Images/Rectangle\ 5.png);
+    display: grid;
+    grid-template-columns: repeat(2,3fr) ;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.bg1
+{
+    background-image: url(./Images/Rectangle\ 8.png);
+    display: grid;
+    grid-template-columns: repeat(2,3fr) ;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+.bg2
+{
+    background-image: url(./Images/Rectangle\ 6.png);
+    display: grid;
+    grid-template-columns: 2fr 2.5fr 1.5fr;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.bg3
+{
+    background-image: url(./Images/Rectangle\ 7.png);
+    display: grid;
+    grid-template-columns: 2fr 2.5fr 1.5fr;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.bg4
+{
+    background-image: url(./Images/Rectangle\ 9.png);
+    display: grid;
+    grid-template-columns: 2fr 2.5fr 1.5fr;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.bg5
+{
+    background-image: url(./Images/Rectangle\ 11.png);
+    display: grid;
+    grid-template-columns: repeat(2,3fr) ;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.bg6
+{
+    background-image: url(./Images/Rectangle\ 10.png);
+    display: grid;
+    grid-template-columns: repeat(2,3fr) ;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+} */
+.bg h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.destination-1{
+    display: grid;
+    gap: 15px;
+    margin-bottom: 15px;
+    grid-template-columns: repeat(2,3fr) ;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: rgb(185, 0, 0);
+    font-size: 40px;
+}
+.destination-2{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 2fr 2.5fr 1.5fr;
+    margin-bottom: 15px;
+}
+.destination-3{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 2fr 4fr;
+    margin-bottom: 15px;
+}
+.destination img{
+    width: 100%;
+    height: 100%;
+}
+/* .destination-img-title{
+    position : absolute;
+    bottom : 50%;
+    left:50%;
+    transform : translated (-50%,-50%)
+} */
+
+
+@media screen and (max-width:576px) {
+    .header{
+        padding: 10px;
+}
+   nav > ul{
+    display: none;
+   }
+    .toggle{
+        display: block;
+        margin-right: 0;
+    }
+    .home-title{
+       top:10px; 
+    }
+    .home-title-1{
+    margin: 0 auto;
+   }
+   .home-title-2{
+    margin: 0 auto;
+   }
+    .form{
+        flex-direction: column;
+        gap: 10px;
+        margin: 0, auto;       
+    }
+    .form-input{
+        height: 42px;
+        width: 164px;
+    }
+    .popular-tours{
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .popular-tour-img img{
+        width: 100%;
+    }
+    .destination{
+        padding: 10px;
+    }
+    .destination-1{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 0;
+    }
+    .destination-2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .destination-3{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+    .header{
+        padding: 30px 10px;
+}
+   nav > ul{
+    display: none;
+   }
+    .toggle{
+        display: block;
+        margin-right: 0;
+    }
+}
+
