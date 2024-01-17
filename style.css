@@ -1,5 +1,6 @@
 
 .header{
+    
     display: flex;
     padding-left: 110px;
     padding-right: 110px;
@@ -75,7 +76,7 @@ nav li a{
 }
 
 .banner{
-    background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/banner.png');
     border-radius: 16px;
    background-size: cover;
    background-position:center;
@@ -181,8 +182,12 @@ nav li a{
     
 }
 .popular-tour-img img{
-    height: 100%;  
+    width: 100%;
+    
 }
+/* .popular-tour-img img{
+    height: 100%;  
+} */
 .popular-tours{
     display: flex;
     padding: 50px 110px;
@@ -331,11 +336,11 @@ nav li a{
     gap: 15px;
     margin-bottom: 15px;
     grid-template-columns: repeat(2,3fr) ;
-    position: relative;
+    /* position: relative; */
     text-align: center;
     align-items: center;
-    color: rgb(185, 0, 0);
-    font-size: 40px;
+    color: rgb(19, 19, 19);
+    font-size: 20px;
 }
 .destination-2{
     display: grid;
@@ -360,6 +365,222 @@ nav li a{
     transform : translated (-50%,-50%)
 } */
 
+.newsletter-site{
+    display: flex;
+    padding: 50px 110px;
+    gap: 100px;
+    /* max-width: 1170px; */
+   
+   
+}
+.newsletter-things{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 30px;
+    height: 100%;
+}
+.newsletter-things h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.newsletter-things p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.input-field input{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 20px;
+    border: none;
+}
+.newsletter-btn{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+    border: none;
+
+}
+.newsletter-img img{
+    width: 100%;
+    margin-left: 30px;
+}
+ .save-upto{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+    
+ }
+ .save-upto p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 200;
+    
+ }
+ .save-upto h2{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+ }
+
+ footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+    height: 302px;
+    padding-top: 40px;
+    width: 100vw;
+    color: #131318;
+ 
+    
+ }
+ .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+ }
+ .footer-logo{
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer-travel{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+ .footer-content h3{
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    gap: 10px;
+ }
+ .footer-content p{
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-top: -10px;
+    /* display: flex; */
+    
+ }
+ 
+.copyright{
+    display: flex;
+    justify-content:center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+    width: 100vw;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    
+    
+}
+
+
+
+@media screen and (min-width:992px){
+   
+    .popular-tours{
+        display: flex;
+        padding: 50px 110px;
+        gap: 110px;
+        /* max-width: 1390px; */
+       
+    }
+    
+    .popular-tour-img img{
+        width: 100%;
+      
+        border-radius: 16px;
+        
+    }
+    .popular-tour-txt h3{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .popular-tour-txt {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    .popular-tour-txt-btn{
+        border-radius: 8px;
+        background: #FF5400;
+        width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-weight: 800;
+        border: none;
+        
+    }
+   
+    /* .newsletter-site img{
+        width: 100%;
+        max-width: 1170px;
+        border-radius: 16px;
+        object-fit: cover;
+    } */
+   
+
+}
 
 @media screen and (max-width:576px) {
     .header{
@@ -397,7 +618,9 @@ nav li a{
     }
     .popular-tour-img img{
         width: 100%;
+        
     }
+    
     .destination{
         padding: 10px;
     }
@@ -411,6 +634,43 @@ nav li a{
     .destination-3{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .newsletter-site{
+        flex-direction: column;
+        padding:0 10px;
+        margin: 0 10px;
+        /* gap: 100px; */
+    }
+    .newsletter-things{
+        width: 100%;
+        padding: 10px;
+       
+    }
+    .input-field input{
+        width: 300px;
+        height: 42px;
+     
+    }
+    .newsletter-btn{
+        width: 300px;
+        height: 42px;
+
+    }
+    
+    .newsletter-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .save-upto{
+        position: static;
+        /* position: relative; */
+        max-width: 250px;
+     
+        transform:  rotate(-19.68deg);
+        
+    }
+
 }
 
 
